@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Soul Kitchen</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./public/styles.css" />
+        <link rel="stylesheet" href="./public/arrow.css" />
+        <link rel="stylesheet" href="./public/adds.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+        <link rel="stylesheet" href="./public/gallery.css" />
+        <link rel="stylesheet" href="./public/smooth_scroll.css" />
+        <link rel="stylesheet" href="./public/adaptivehead.css" />
+        <link rel="stylesheet" href="./public/main-pic.css" />
+    </head>
+    <body class="font-montserrat bg-[#222222] text-[#D1BD96]">
+        <section>
+            <header>
+                <div class="min-w-full min-h-screen flex justify-center items-center">
+                    <div>
+                        <img src="./img/LOGO.png" alt="SOUL KITCHEN" class="max-h-[800px] mb-32" />
+                    </div>
+                    <a href="#menu" class="absolute bottom-0 text-center left-0 right-0 my-0 mx-auto">
+                        <div class="arrow-7">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </header>
+        </section>
+        <section>
+            <h2 id="menu" class="text-5xl text-center pt-6">Меню</h2>
+            <br />
+            <div class="container mx-auto p-6 flex flex-col justify-center items-start">
+                <!-- Завтрак -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-[1fr_1fr] justify-center md:mx-16 lg:mx-16 gap-4">
+                    <div class="row-span-2">
+                        <h3 class="text-xl">Завтраки</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Томатная овсянка: овсянка, томаты, копченый сыр, яйцо</p>
+                                <p class="w-[24%] text-right inline-block">15</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Сладкая овсянка: овсянка, соленая карамель, сезонные фрукты</p>
+                                <p class="w-[24%] text-right inline-block">14</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Брускетта грибы и бекон: глазунья, крем, грибы, бекон</p>
+                                <p class="w-[24%] text-right inline-block">19</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Брускетта осетр и голубой сыр: осетр, шпинат, скрембл, горгонзола</p>
+                                <p class="w-[24%] text-right inline-block">27</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Сырник: апельсиновый творог, ягоды, соленая карамель</p>
+                                <p class="w-[24%] text-right inline-block">15</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Круассан</p>
+                                <p class="w-[24%] text-right inline-block">7</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Круассан кранч</p>
+                                <p class="w-[24%] text-right inline-block">9</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Круассан фисташковый</p>
+                                <p class="w-[24%] text-right inline-block">9</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Круассан соленная карамель</p>
+                                <p class="w-[24%] text-right inline-block">9</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl">Закуски</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Мясная: говядина, тунец, каперсы</p>
+                                <p class="w-[24%] text-right inline-block">12</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Рыбная: осетр, томаты, цитрус</p>
+                                <p class="w-[24%] text-right inline-block">12</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Овощная намазка: тыква, паприка, кабачок, домашний песто</p>
+                                <p class="w-[24%] text-right inline-block">12</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl">Салаты</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Сезонный: свежие овощи, листья салата, фирменная заправка</p>
+                                <p class="w-[24%] text-right inline-block">5</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Теплый: теплые овощи, пармезан, песто</p>
+                                <p class="w-[24%] text-right inline-block">6</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Пряная тыква: тыква, жаренный сыр, орехи</p>
+                                <p class="w-[24%] text-right inline-block">7</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr] md:grid-cols-1 lg:grid-cols-1 grid-rows-[1fr] justify-center md:mx-16 lg:mx-16 gap-4 items-center">
+                    <div class="mt-4 lg:w-[611px] md:w-[611px]">
+                        <h3 class="text-xl">Основные блюда</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Мясо: говядина, мангольд, баклажан</p>
+                                <p class="w-[24%] text-right inline-block">20</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Стейк: свинина, овощи, томат</p>
+                                <p class="w-[24%] text-right inline-block">23</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Птица: филе куриной грудки, тыква, перец</p>
+                                <p class="w-[24%] text-right inline-block">24</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Паста: орзо, бекон, песто</p>
+                                <p class="w-[24%] text-right inline-block">20</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Ньоки: картофель, трюфель, пармезан, сливки</p>
+                                <p class="w-[24%] text-right inline-block">20</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <hr style="width: 50%; margin: auto; border-color: #d1bd96" />
+                <br />
+                <br />
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 md:grid-rows-[1fr_250px_150px] lg:grid-rows-[1fr_250px_150px] justify-center md:mx-16 lg:mx-16 gap-4">
+                    <div class="sm:h-max">
+                        <h3 class="text-xl">Вино</h3>
+                        <br />
+                        <div class="grid md:lg:inline-grid lg:inline-grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-rows-1 md:grid-rows-2 lg:grid-rows-2 gap-4 items-start justify-center">
+                            <div>
+                                <h3 class="text-lg">Красное</h3>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Pino noir piloris (red dry)</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">91</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">La vieille ferme ventoux rouge</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">70</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Грузинское (красное сухое)</p>
+                                        <p class="w-[20%] text-center">150ML</p>
+                                        <p class="w-[20%] text-right">9</p>
+                                    </li>
+                                    <br />
+                                </ul>
+                            </div>
+                            <div class="sm:h-max">
+                                <h3 class="text-lg">Белое</h3>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Les pillotieres touraine sauvignon blan</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">91</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Fruits de mar</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">75</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Грузинское (белое сухое)</p>
+                                        <p class="w-[20%] text-center">150ML</p>
+                                        <p class="w-[20%] text-right">9</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sm:h-max">
+                                <h3 class="text-lg">Розовое</h3>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Domaine de la rouviere cotes de provence</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">94</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sm:h-max">
+                                <h3 class="text-lg">Игристое</h3>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Jules larose brut</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">84</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Signore giuseppe prosecco brut</p>
+                                        <p class="w-[20%] text-center">750ML</p>
+                                        <p class="w-[20%] text-right">91</p>
+                                    </li>
+                                    <li class="pt-6 flex justify-between">
+                                        <p class="w-[60%]">Игристое грузинское (брют)</p>
+                                        <p class="w-[20%] text-center">150ML</p>
+                                        <p class="w-[20%] text-right">9</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:h-max">
+                        <h3 class="text-xl">Алкоголь</h3>
+                        <div class="grid md:inline-grid lg:inline-grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 grid-rows-1 md:grid-rows-3 lg:grid-rows-[200px_1fr] gap-4 w-full md:gap-y-0 lg:gap-y-0 pt-1">
+                            <div>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Martini rosso</p>
+                                        <p class="w-[24%] text-right inline-block">6</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Vodka absolut</p>
+                                        <p class="w-[24%] text-right inline-block">8</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Aperol</p>
+                                        <p class="w-[24%] text-right inline-block">10</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Campari</p>
+                                        <p class="w-[24%] text-right inline-block">12</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Olmeca blanco</p>
+                                        <p class="w-[24%] text-right inline-block">12</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Gin beefeater</p>
+                                        <p class="w-[24%] text-right inline-block">12</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="text-slate-300 pl-4">
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Bacardi carta blanca</p>
+                                        <p class="w-[24%] text-right inline-block">10</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Captain morgan white rum</p>
+                                        <p class="w-[24%] text-right inline-block">10</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Sailor jerry spiced rum</p>
+                                        <p class="w-[24%] text-right inline-block">10</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Dewars white label</p>
+                                        <p class="w-[24%] text-right inline-block">12</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Jim beam</p>
+                                        <p class="w-[24%] text-right inline-block">15</p>
+                                    </li>
+                                    <li class="pt-1">
+                                        <p class="w-[74%] text-left inline-block">Glenfiddich</p>
+                                        <p class="w-[24%] text-right inline-block">20</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="lg:col-span-2 md:col-span-2">
+                                <h3 class="text-xl">Классические коктейли - 18</h3>
+                                <ul class="text-slate-300 pl-4 pt-1">
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Апероль шприц</p>
+
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">игристое вино/апероль/содовая</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Лавандерия</p>
+
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">джин/сироп лаванды/лимон/тоник</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Клавер клаб</p>
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">джин/малиновый сироп/сок лимона/яичный белок</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Негрони</p>
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">джин/кампари/мартини россо/апельсин</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Ирландский шейк</p>
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">виски/молоко/карамельный сироп/сливки/какао</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Май тай</p>
+
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">белый ром/спайс ром/миндальный сироп/лимонный сок</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Маргарита кокос</p>
+
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">текила/сироп лимона/кокосовый сироп</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[35%] md:w-[15%] lg:w-[15%] text-left inline-block">Текила санрайз</p>
+                                        <p class="w-[64%] md:w-[84%] lg:w-[84%] text-right inline-block">текила/апельсиновый сок/гренадин</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:h-max">
+                        <h3 class="text-xl">Чай</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-start inline-block">Грузинский чёрный/зеленый</p>
+                                <p class="w-[24%] text-right inline-block">7</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">травяной сбор/пряный гибискус/имбирный</p>
+                                <p class="w-[24%] text-right inline-block">8</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Шу пуэр/шен пуэр/те гуань инь/габа алишан</p>
+                                <p class="w-[24%] text-right inline-block">10</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Мао фэн</p>
+                                <p class="w-[24%] text-right inline-block">10</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sm:h-max">
+                        <h3 class="text-xl">Кофе</h3>
+                        <div class="grid md:lg:inline-grid lg:inline-grid md:grid-cols-2 lg:grid-cols-2 grid-rows-2 md:grid-rows-1 lg:grid-rows-1 gap-4 w-full gap-y-0 md:auto-cols-min lg:auto-cols-min">
+                            <div>
+                                <ul class="text-slate-300 pl-4 pt-1">
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-start inline-block">Эспрессо</p>
+                                        <p class="w-[84%] text-right inline-block">5</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Американо</p>
+                                        <p class="w-[84%] text-right inline-block">5</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Капучино</p>
+                                        <p class="w-[84%] text-right inline-block">7</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Доппио</p>
+                                        <p class="w-[84%] text-right inline-block">8</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Латте</p>
+                                        <p class="w-[84%] text-right inline-block">9</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Раф</p>
+                                        <p class="w-[84%] text-right inline-block">10</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="text-slate-300 pl-4 pt-1">
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Какао</p>
+                                        <p class="w-[84%] text-right inline-block">9</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Флэт уайт</p>
+                                        <p class="w-[84%] text-right inline-block">11</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Бамбл</p>
+                                        <p class="w-[84%] text-right inline-block">11</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Моккачино</p>
+                                        <p class="w-[84%] text-right inline-block">13</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Альтернативное молоко</p>
+                                        <p class="w-[84%] text-right inline-block">5</p>
+                                    </li>
+                                    <li class="pt-1 flex justify-between">
+                                        <p class="w-[15%] text-left inline-block">Сироп</p>
+                                        <p class="w-[84%] text-right inline-block">3</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:h-max">
+                        <h3 class="text-xl">Безалкогольные напитки</h3>
+                        <ul class="text-slate-300 pl-4 pt-1">
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-start inline-block">Лимонад (классический/ягодный/тропический)</p>
+                                <p class="w-[24%] text-right inline-block">9</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Мохито/пина колада</p>
+                                <p class="w-[24%] text-right inline-block">10</p>
+                            </li>
+                            <li class="pt-1 flex justify-between">
+                                <p class="w-[74%] text-left inline-block">Апельсиновый фреш</p>
+                                <p class="w-[24%] text-right inline-block">10</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <hr style="width: 50%; margin: auto; border-color: #d1bd96" />
+                <br />
+                <br />
+            </div>
+        </section>
+        <section class="gallery">
+            <!-- Gallery -->
+            <h2 class="text-5xl text-center">Галерея</h2>
+            <br />
+            <div class="container mx-auto pt-12">
+                <div class="gallery-list">
+                    <a href="./img/1.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/1.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/2.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/2.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/3.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/3.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/4.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/4.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/5.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/5.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/6.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/6.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/7.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/7.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/8.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/8.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/10.jpg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img class="ten_eleven" src="./img/10.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/9.jpeg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/9.jpeg" alt="alt" />
+                    </a>
+                    <a href="./img/12.jpg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img src="./img/12.jpg" alt="alt" />
+                    </a>
+                    <a href="./img/11.jpg" class="gallery-item">
+                        <div class="gallery-item-hover">Посмотреть</div>
+                        <img class="ten_eleven" src="./img/11.jpeg" alt="alt" />
+                    </a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <hr style="width: 50%; margin: auto; border-color: #d1bd96" />
+            <br />
+            <br />
+        </section>
+        <section>
+            <!-- Contacts -->
+            <h2 class="text-5xl text-center pt-4">Контакты</h2>
+            <br />
+            <br />
+            <br />
+            <div class="container mx-auto">
+                <div class="flex justify-evenly items-start flex-col md:flex-row lg:flex-row">
+                    <div class="w-full md:w-2/5 lg:w-2/5 flex justify-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.433891988221!2d41.61892131586031!3d41.64636647924139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40678752fb7ab119%3A0x24304a2847a95325!2z0KPQt9Cx0LXQutGB0LrQuNC5INCg0LXRgdGC0L7RgNCw0L0gUGxvdiBMYWdtYW4gVXpiZWsgQ3Vpc2luZQ!5e0!3m2!1sru!2sru!4v1681143793121!5m2!1sru!2sru"
+                            width="100%"
+                            height="350"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="w-full md:w-2/5 lg:w-2/5 flex flex-col justify-between h-64 md:h-96 lg:h-96 text-center lg:text-left md:text-left">
+                        <div class="text-white pt-6 md:pt-0 lg:pt-0">
+                            <h3 class="text-2xl">SOUL KITCHEN</h3>
+                            <p class="pt-4"><a href="https://instagram.com/1st_soulkitchen">Инстаграм: Soul Kitchen</a></p>
+                            <p class="pt-4"><a href="#">Почта: email@gmail.com</a></p>
+                            <p class="pt-4"><a href="#">Телефон: +595(995)599204516</a></p>
+                            <p class="pt-4"><a href="https://www.tripadvisor.ru/Restaurant_Review-g297576-d25446385-Reviews-The_1st_Soul_Kitchen_Restaurant-Batumi_Adjara_Region.html">TripAdvisor: https://clck.ru/34UVyD</a></p>
+                        </div>
+                        <div class="text-white">
+                            <p>Каждый день 9.00 - 00:00</p>
+                            <p><a href="#">1 Sherif Khimshiashvili, Batumi 6004</a></p>
+                            <p><a href="index.html">РУС</a></p>
+                            <p><a href="indexeng.html">ENG</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+        <script>
+            $(".gallery-list").magnificPopup({
+                delegate: "a",
+                type: "image",
+                gallery: {
+                    enabled: true,
+                },
+            })
+        </script>
+    </body>
+</html>
